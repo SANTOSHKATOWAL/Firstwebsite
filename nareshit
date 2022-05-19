@@ -1,0 +1,300 @@
+ <!DOCTYPE html> 
+<html> 
+<head> 
+<title>Assignment</title> 
+<link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css"> 
+<script src="../node_modules/jquery/dist/jquery.js"></script> 
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script> 
+<link rel="stylesheet" href="../Fonts/css/all.css"> 
+<style> 
+.banner{ 
+columns: 6; 
+margin-top: 50px; 
+background-color: lightsteelblue; 
+margin-bottom: 50px; 
+text-decoration: none; 
+} 
+#heading{ 
+column-span: all; 
+text-align: center; 
+} 
+.banner2{ 
+columns: 4; 
+margin-top: 50px; 
+background-color: rgb(191, 222, 176); 
+margin-bottom: 50px; 
+text-decoration: none; 
+padding: 20px; 
+} 
+#heading2{ 
+column-span: all; 
+text-align: center; 
+font-weight: bold; 
+font-size: 20px; 
+margin-bottom: 50px; 
+} 
+#subheading{ 
+column-span: all; 
+text-align: center; 
+font-size: 12px; 
+margin-top: 20px; 
+} 
+.card-deck{ 
+padding: 0px; 
+margin-left: -50px; 
+} 
+.footer{ 
+columns: 3; 
+margin-top: 50px; 
+background-color: rgb(68, 77, 87); 
+color: white; 
+} 
+#heading3{ 
+column-span: all; 
+text-align: center; 
+margin-bottom: 50px; 
+} 
+</style> 
+</head> 
+<body class="container-fluid"> 
+<h2 style="text-align: center;">Naresh Institute and Technologies</h2> 
+<div class="btn-toolbar bg-dark justify-content-between"> 
+<div class="btn-group btn-group-sm"> 
+<button class="btn btn-dark"><span class="fa fa-home"></span>Home</button> 
+<button class="btn btn-dark"><span class="fa fa-user"></span>About</button> 
+<button class="btn btn-dark"><span class="fa fa-address-book"></span>Contact</button> 
+</div> 
+<div class=" btn-group btn-group-sm"> 
+<button class="btn btn-dark"><span class="fa fa-sign-in-alt"></span>Sign-in</button> 
+</div> 
+</div> 
+<!--BreadCrumb End--> 
+<div id="carouselDemo" class="carousel slide" data-ride="carousel" style="margin-top: 50px; margin-bottom: 50px;"> 
+<div class="carousel-inner"> 
+<div class="carousel-item active"> 
+<img src="../Images/Imgboot/a1.jpg" class="d-block w-100"> 
+</div> 
+<div class="carousel-item"> 
+<img src="../Images/Imgboot/a2.jpg" class="d-block w-100"> 
+</div> 
+<div class="carousel-item"> 
+<img src="../Images/Imgboot/a3.jpg" class="d-block w-100"> 
+</div> 
+<div class="carousel-item"> 
+<img src="../Images/Imgboot/a4.jpg" class="d-block w-100"> 
+</div> 
+</div> 
+</div> 
+<!--Carousel End--> 
+<div align="center" style="margin-bottom: 20px;"> 
+<button class="btn btn-warning btn-lg">Show me what's in this package</button> 
+</div> 
+<div align="center"> 
+<button class="btn btn-info btn-lg">What is the package</button> 
+<p><sup>*</sup> A package is a small container in which a quantity of something is sold. Packages are either small boxes made of thin cardboard, or bags or envelopes made of paper or plastic. ... When a product is packaged, it is put into containers to be sold.</p> 
+</div> 
+<!--Button end--> 
+<div class="float-left"> 
+<table class="table table-secondary table-sm table-hover"> 
+<thead> 
+<tr> 
+<th>Department</th> 
+<th>Included</th> 
+</tr> 
+</thead> 
+<tbody > 
+<tr> 
+<td>B.Tech</td> 
+<td>&#10004;</td> 
+</tr> 
+<tr> 
+<td>M.Tech</td> 
+<td>&#10004;</td> 
+</tr> 
+<tr> 
+<td>MCA</td> 
+<td>&#10004;</td> 
+</tr> 
+</tbody> 
+</table> 
+</div> 
+<div align="right"> 
+<img src="../Images/Imgboot/a2.jpg" height="100" width="200"> 
+</div> 
+<!--Table end--> 
+<div class="banner"> 
+<div id="heading"> 
+What is the Job 
+</div> 
+<div> 
+<ul>Types of jobs </ul> 
+<li>Vocanologist</li> 
+<li>Quantum Physicist</li> 
+<li>Oceangrapher</li> 
+<li>Biomedical Engineer</li> 
+</div> 
+<div> 
+<ul>Define job Profile</ul> 
+<li>Vocanologist</li> 
+<li>Quantum Physicist</li> 
+<li>Oceangrapher</li> 
+<li>Biomedical Engineer</li> 
+</div> 
+<div> 
+<ul>Job profile summary</ul> 
+<li>Vocanologist</li> 
+<li>Quantum Physicist</li> 
+<li>Oceangrapher</li> 
+<li>Biomedical Engineer</li> 
+</div> 
+<div> 
+<ul>The IT skills</ul> 
+<li>Vocanologist</li> 
+<li>Quantum Physicist</li> 
+<li>Oceangrapher</li> 
+<li>Biomedical Engineer</li> 
+</div> 
+<div> 
+<ul> Freshers key skills</ul> 
+<li>Vocanologist</li> 
+<li>Quantum Physicist</li> 
+<li>Oceangrapher</li> 
+<li>Biomedical Engineer</li> 
+</div> 
+<div> 
+<ul> Personal skills</ul> 
+<li>Vocanologist</li> 
+<li>Quantum Physicist</li> 
+<li>Oceangrapher</li> 
+<li>Biomedical Engineer</li> 
+</div> 
+</div> 
+<!--Banner end--> 
+<div style="margin-bottom: 30px;"> 
+<img hspace="100" align="right" src="../Images/Imgboot/ind1.jpg" width="200" height="120"> 
+<p> The hiring manager wants to: Learn about your career goals and how this position fits into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if hired. Find out what you know about the company, industry, position (and if you took the time to research).</p> 
+</div> 
+<div style="margin-top: 30px;"> 
+<img align="left" src="../Images/Imgboot/ind2.png" width="200" height="120"> 
+<p> The hiring manager wants to: Learn about your career goals and how this position fits into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if hired. </p> 
+</div> 
+<div style="margin-bottom: 30px;"> 
+<img hspace="100" align="right" src="../Images/Imgboot/ind3.png" width="200" height="120"> 
+<p> The hiring manager wants to: Learn about your career goals and how this position fits into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if hired.</p> 
+</div> 
+<div style="margin-bottom: 30px;"> 
+<img hspace="100" align="left" src="../Images/Imgboot/ind4.jpg" width="200" height="120"> 
+<p> The hiring manager wants to: Learn about your career goals and how this position fits into your plan. Make sure that you are sincerely interested in the job and will be motivated to perform if hired. </p> 
+</div> 
+<!--poster end--> 
+<div align="center" style="margin-top: 30px; padding: 20px;"> 
+<button class="btn btn-info btn-lg">Request call back</button> 
+<button class="btn btn-secondary btn-lg">FAQ'S</button> 
+</div> 
+<!--Button-2 end--> 
+<div class="banner2"> 
+<div id="heading2"> 
+Student Department Details 
+</div> 
+<div> 
+<dl> Average salary offered 
+<dt> INR 7L per annum 
+<dd>per annum</dd> 
+</dt> 
+</dl> 
+</div> 
+<div> 
+<dl> Duration 
+<dt> 2 
+<dd>years</dd> 
+</dt> 
+</dl> 
+</div> 
+<div> 
+<dl> Average fees incurred 
+<dt> INR 25,000 - 2L 
+<dd>per annum</dd> 
+</dt> 
+</dl> 
+</div> 
+<div> 
+<dl> Indian Institute of Technnology Kanpur 
+<dt> 49,035 
+<dd>Kanpur</dd> 
+</dt> 
+</dl> 
+</div> 
+<div id="subheading"> 
+<sup>*</sup>job : A grouup of homogeneous tasks related by similarity of function 
+</div> 
+</div> 
+<!--Table-2 end--> 
+<h2 align="center">Services</h2> 
+<div class="card-deck"> 
+<div class="card"> 
+<div class="card-header"> 
+<img src="../Images/Imgboot/s1.jpg" width="400px" height="200px"> 
+</div> 
+<div class="card-body"> 
+<h4>Web Design!!</h4> 
+</div> 
+<div class="cart-footer text-center"> 
+<p>Online ordering system helps to maintain a Better Business Relationship with your customers, which is a key factor to run any successful business.</p> 
+</div> 
+</div> 
+<div class="card"> 
+<div class="card-header"> 
+<img src="../Images/Imgboot/s2.jpg" width="400px" height="200px"> 
+</div> 
+<div class="card-body"> 
+<h4>IT Services!!</h4> 
+</div> 
+<div class="cart-footer text-center"> 
+<p>We are ideally located in Larbert meaning we can offer IT support to businesses throughout Scotland. We take the hassle and worry out of your IT system by providing preventative and proactive IT support. 
+</p> 
+</div> 
+</div> 
+<div class="card"> 
+<div class="card-header"> 
+<img src="../Images/Imgboot/s3.png" width="400px" height="200px"> 
+</div> 
+<div class="card-body"> 
+<h4>Web Marketing!!</h4> 
+</div> 
+<div class="cart-footer text-center"> 
+<p>We are passionate about digital content creation, strategy and delivery. We deliver results by designing marketing strategies which improve our clients brand visibility.</p> 
+</div> 
+</div> 
+</div> 
+<!--card end--> 
+<div class="footer"> 
+<div id="heading3"> 
+Naresh Technologies 
+</div> 
+<div> 
+<ul> Find us 
+<li>Facebook</li> 
+<li>Google</li> 
+<li>twitter</li> 
+<li>YouTube</li> 
+</ul> 
+</div> 
+<div> 
+<ul> Go to 
+<li>Home</li> 
+<li>About</li> 
+<li>Service</li> 
+<li>Contact</li> 
+</ul> 
+</div> 
+<div> 
+<ul> Websites 
+<li>Name : Naresh Istitute</li> 
+<li>Email : info@nareshit.com</li> 
+<li>Contact : +91-xxxxxxxxxx</li> 
+<li>Address : Sr nagar, Hyderabad, Telangana, India</li> 
+</ul> 
+</div> 
+</div> 
+</body> 
+</html>
